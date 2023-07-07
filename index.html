@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de usúario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="">
+      <h1>Gerador de usúario para matrix</h1>
+    </header>
+
+    <div class="form-gerador">
+      <form action="">
+        <h2>GERADOR</h2>
+        <label>Nome:</label>
+        <input type="text" value="" class="input-text" id="nomesemformtacao" />
+
+        <label>User:</label>
+        <input
+          type="text"
+          value=""
+          class="input-text"
+          id="nomeformatado"
+          readonly
+        />
+
+        <label>Login:</label>
+        <input type="text" value="" class="input-text" id="login" readonly />
+
+        <label>Pass: </label>
+        <input type="text" value="" class="input-text" id="senha" readonly />
+
+        <button onclick="gerador()">Gerar</button>
+
+        <textarea name="" id="registros" rows="10" readonly></textarea>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
