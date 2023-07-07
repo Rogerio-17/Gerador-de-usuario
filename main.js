@@ -49,7 +49,6 @@ function gerador() {
 
     //Cria senha aleatorio
     function criarPass(numC) {
-      event.preventDefault();
       let charset =
         "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
       let pass = "";
